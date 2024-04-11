@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/admin_client/style.css">
+</head>
+<body>
+	<div id="logged_in_text"></div>
+	<div id="classes"></div>
+	<div id="equipment"></div>
+	<div id="rooms"></div>
+	<div id="payments"></div>
+	<div id="buttons">
+		<button id="create_class_button">Create a Class
+		<button id="modify_classes_button">Modify Class Schedule
+		<button id="modify_equipment_button">Modify Equipment
+		<button id="book_room_button">Book a Room
+		<button id="make_payment_button">Pay Invoice
+		<button type="button" id="logout_button" value="Log out">Log out</button>
+	</div>
+	<div id="error_message_div"></div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='admin_client/event_listeners.js'></script>
+	<script src='admin_client/sockets.js'></script>
+</body>
+</html>

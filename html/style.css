@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+input {
+	width: 15%;
+}
+
+.form {
+	text-align: center;
+}
+
+#error_message_div {
+	color: maroon;
+}

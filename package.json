@@ -1,0 +1,11 @@
+{
+    "name": "COMP 3005 - W24 - Final Project",
+    "version": "0.0.1",
+    "description": "App",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "pg": "^8.11.3",
+        "socket.io": "latest"
+    },
+    "author": "Ben Granger (101221725)"
+}

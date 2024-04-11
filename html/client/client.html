@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/client/style.css">
+</head>
+<body>
+	<div id="logged_in_text"></div>
+	<div id="goals_dashboard"></div>
+	<div id="statistics_dashboard"></div>
+	<div id="modifications"></div>
+	<div id="payment_portal"></div>
+	<div id="classes"></div>
+	<div id="buttons">
+		<button type="button" id="modify_current_lift_button" value="Modify Lifts">Modify Current Lifts</button>
+		<button type="button" id="modify_goals_button" value="Modify Goals">Modify Goals</button>
+		<button type="button" id="payment_button" value="Make a Payment">Make a Payment</button>
+		<button id="class_list_button">Signup for Classes
+		<button id="view_your_classes_button">View Currently Registered Classes
+		<button type="button" id="logout_button" value="Log out">Log out</button>
+		<button type="button" id="deregister_button" value="Delete your Account">Delete your Account</button>
+	</div>
+	<div id="error_message_div"></div>
+	<div id="deregister_confirmation"></div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='client/event_listeners.js'></script>
+	<script src='client/sockets.js'></script>
+</body>
+</html>

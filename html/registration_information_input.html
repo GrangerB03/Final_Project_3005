@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+Please enter your information to complete your registration:
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form">
+	<form>
+		<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname"><br>
+		<label for="weight">Weight (lbs):</label><br>
+		<input type="text" id="weight" name="weight"><br>
+		<label for="height">Height (cm):</label><br>
+		<input type="text" id="height" name="height"><br>
+		<label for="squat">Squat (lbs):</label><br>
+		<input type="text" id="squat" name="squat"><br>
+		<label for="bench">Bench Press (lbs):</label><br>
+		<input type="text" id="bench" name="bench"><br>
+		<label for="deadlift">Deadlift (lbs):</label><br>
+		<input type="text" id="deadlift" name="deadlift"><br>
+		<div id="error_message_div"></div>
+		<button type="button" id="submit_button" value="Submit">Submit</button>
+	</form>
+	<div id="error_message_div"></div>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='register_submission_handler.js'></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+	background-color: lightpink;
+	font-family: "Times New Roman", Times, serif;
+}
+
+input {
+	width: 15%;
+}
+
+.form {
+	text-align: center;
+}
+
+#error_message_div {
+	color: maroon;
+}
+
+table, td, th {
+  border: 2px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+button {
+	text-align: center;
+	background-color: lightsteelblue;
+	color: darkslategray;
+}

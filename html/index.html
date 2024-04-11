@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="form">
+		<form>
+			<label for="uname">Username:</label><br>
+			<input type="text" id="uname" name="uname"><br>
+			<label for="passwd">Password:</label><br>
+			<input type="text" id="passwd" name="passwd"><br>
+			<div id="error_message_div"></div>
+			<button type="button" id="login_button" value="Login">Login
+		</form>
+		<button type="button" id="register_button">Register
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='client.js'></script>
+</body>
+</html>

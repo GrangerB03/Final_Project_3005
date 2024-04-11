@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/trainer_client/style.css">
+</head>
+<body>
+	<div id="logged_in_text"></div>
+	<div id="member_search"></div>
+	<div id="availability"></div>
+	<div id="buttons">
+		<button id="availability_button">Set your Availability
+		<button id="member_search_button">Search for a Member
+		<button type="button" id="logout_button" value="Log out">Log out</button>
+	</div>
+	<div id="error_message_div"></div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='trainer_client/event_listeners.js'></script>
+	<script src='trainer_client/sockets.js'></script>
+</body>
+</html>
